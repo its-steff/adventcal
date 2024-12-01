@@ -10,7 +10,7 @@
 	</main>
 
 	<footer>
-		<p>Merry Christmas Ya Filthy Animal 🖤 Steff</p>
+		<p>Merry Christmas Ya Filthy Animal</p>
 	</footer>
 </div>
 
