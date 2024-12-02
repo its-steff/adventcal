@@ -49,15 +49,15 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		background-color: #d6424c;
+		background-color: white;
 		&:hover {
 			cursor: pointer;
-			background-color: #e84853;
+			background-color: #eee;
 		}
 
 		p {
 			font-size: 80px;
-			color: white;
+			color: rgb(13, 46, 13);
 		}
 	}
 

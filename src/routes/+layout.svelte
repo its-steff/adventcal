@@ -37,6 +37,7 @@
 		justify-content: center;
 		align-items: center;
 		padding: 12px;
+		color: #eee;
 	}
 
 	@media (min-width: 480px) {

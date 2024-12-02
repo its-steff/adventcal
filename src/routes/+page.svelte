@@ -187,6 +187,7 @@
 	h1 {
 		font-weight: 400;
 		font-size: 32px;
+		color: #eee;
 	}
 	section {
 		display: flex;
