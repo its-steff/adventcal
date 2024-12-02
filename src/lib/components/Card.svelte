@@ -15,7 +15,8 @@
 	{#if cardImage}
 		<!-- svelte-ignore a11y_img_redundant_alt -->
 		<img src={cardImage} alt="This is an image for the calendar item" />
-	{:else if cardText}
+	{/if}
+	{#if cardText}
 		<p>{cardText}</p>
 	{/if}
 </Modal>

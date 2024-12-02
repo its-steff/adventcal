@@ -1,5 +1,6 @@
 <script>
 	import adventfox from '$lib/images/adventfox.jpg';
+	import joker from '$lib/images/joker.jpeg';
 	import Card from '$lib/components/Card.svelte';
 
 	const today = new Date().getDate();
@@ -12,8 +13,8 @@
 		},
 		{
 			day: 2,
-			image: undefined,
-			text: 'Some text from the Joker The Dark Knight movie'
+			image: joker,
+			text: "'I believe whatever doesn't kill you makes you. . . stranger,' - The Dark Knight, Joker"
 		},
 		{
 			day: 3,
