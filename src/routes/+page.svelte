@@ -188,6 +188,10 @@
 		font-weight: 400;
 		font-size: 32px;
 		color: #eee;
+		font-size: 24px;
+		@media (min-width: 800px) {
+			font-size: 32px;
+		}
 	}
 	section {
 		display: flex;
@@ -198,12 +202,17 @@
 	}
 	.calendarContainer {
 		display: grid;
-		grid-template-columns: repeat(7, 1fr);
+
 		gap: 15px;
 
-		@media (min-width: 600px) and (max-width: 1600px) {
+		grid-template-columns: repeat(2, 1fr);
+
+		@media (min-width: 900px) {
 			grid-template-columns: repeat(4, 1fr);
-			/* Styles for tablet screens */
+		}
+
+		@media (min-width: 1500px) {
+			grid-template-columns: repeat(7, 1fr);
 		}
 	}
 </style>
