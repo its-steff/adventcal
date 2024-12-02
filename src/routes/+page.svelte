@@ -187,9 +187,13 @@
 <style>
 	h1 {
 		font-weight: 400;
-		font-size: 32px;
+		font-size: 18px;
 		color: #eee;
-		font-size: 24px;
+		text-align: center;
+
+		@media (min-width: 360px) {
+			font-size: 32px;
+		}
 		@media (min-width: 800px) {
 			font-size: 32px;
 		}
@@ -203,9 +207,7 @@
 	}
 	.calendarContainer {
 		display: grid;
-
 		gap: 15px;
-
 		grid-template-columns: repeat(2, 1fr);
 
 		@media (min-width: 900px) {

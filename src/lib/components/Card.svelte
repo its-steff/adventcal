@@ -42,8 +42,8 @@
 		font-size: 28px;
 	}
 	div {
-		width: 200px;
-		height: 200px;
+		width: 100px;
+		height: 100px;
 		border-radius: 10px 10px 10px 10px;
 		text-align: center;
 		display: flex;
@@ -56,7 +56,7 @@
 		}
 
 		p {
-			font-size: 80px;
+			font-size: 40px;
 			color: rgb(13, 46, 13);
 		}
 	}
@@ -67,6 +67,17 @@
 		&:hover {
 			cursor: not-allowed;
 			background-color: #aaa;
+		}
+	}
+
+	@media (min-width: 460px) {
+		div {
+			width: 200px;
+			height: 200px;
+
+			p {
+				font-size: 80px;
+			}
 		}
 	}
 </style>
