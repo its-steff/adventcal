@@ -17,7 +17,7 @@
 		<img src={cardImage} alt="This is an image for the calendar item" />
 	{/if}
 	{#if cardText}
-		<p>{cardText}</p>
+		<p class="modalText">{cardText}</p>
 	{/if}
 </Modal>
 <!-- svelte-ignore a11y_click_events_have_key_events -->
@@ -36,6 +36,10 @@
 		margin: 0 auto;
 		display: block;
 		padding-bottom: 20px;
+	}
+
+	.modalText {
+		font-size: 28px;
 	}
 	div {
 		width: 200px;

@@ -14,7 +14,7 @@
 		{
 			day: 2,
 			image: joker,
-			text: "'I believe whatever doesn't kill you makes you. . . stranger,' - The Dark Knight, Joker"
+			text: `"I believe whatever doesn't kill you makes you. . . stranger," - Joker`
 		},
 		{
 			day: 3,
