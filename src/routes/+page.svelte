@@ -1,6 +1,7 @@
 <script>
 	import adventfox from '$lib/images/adventfox.jpg';
 	import joker from '$lib/images/joker.jpeg';
+	import aprillludgate from '$lib/images/aprilludgate.webp';
 	import Card from '$lib/components/Card.svelte';
 
 	const today = new Date().getDate();
@@ -18,8 +19,8 @@
 		},
 		{
 			day: 3,
-			image: undefined,
-			text: 'Another quote or some riddle'
+			image: aprillludgate,
+			text: `"The only things I like are dogs, sleeping late, and weird birthmarks. You can’t make museums about those." - April Ludgate"`
 		},
 		{
 			day: 4,
