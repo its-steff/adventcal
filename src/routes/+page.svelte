@@ -1,5 +1,6 @@
 <script>
 	import adventfox from '$lib/images/adventfox.jpg';
+	import adventfox2 from '$lib/images/adventfox2.jpg';
 	import joker from '$lib/images/joker.jpeg';
 	import aprillludgate from '$lib/images/aprilludgate.webp';
 	import Card from '$lib/components/Card.svelte';
@@ -20,12 +21,12 @@
 		{
 			day: 3,
 			image: aprillludgate,
-			text: `"The only things I like are dogs, sleeping late, and weird birthmarks. You can’t make museums about those." - April Ludgate"`
+			text: `"The only things I like are dogs, sleeping late, and weird birthmarks. You can’t make museums about those." - April Ludgate`
 		},
 		{
 			day: 4,
-			image: adventfox,
-			text: undefined
+			image: adventfox2,
+			text: ''
 		},
 		{
 			day: 5,
