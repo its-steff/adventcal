@@ -3,6 +3,7 @@
 	import adventfox2 from '$lib/images/adventfox2.jpg';
 	import joker from '$lib/images/joker.jpeg';
 	import aprillludgate from '$lib/images/aprilludgate.webp';
+	import lizard from '$lib/images/lizard.png';
 	import Card from '$lib/components/Card.svelte';
 
 	const today = new Date().getDate();
@@ -30,8 +31,8 @@
 		},
 		{
 			day: 5,
-			image: undefined,
-			text: 'quote here'
+			image: lizard,
+			text: `DID YOU KNOW the New Mexican Whiptail is a female-only species of lizard? They reproduce asexually. They are otherwise wary, energetic, and fast moving. Lesbian lizards FTW!`
 		},
 		{
 			day: 6,
