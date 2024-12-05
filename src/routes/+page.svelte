@@ -38,13 +38,16 @@
 		},
 		{
 			day: 6,
-			image: undefined,
-			text: 'quote here'
+			image: 'https://i.pinimg.com/originals/07/66/a1/0766a14d9320aa1a4942875e224a0e9d.gif',
+			cardLink: 'https://www.youtube.com/watch?v=5gZrYyi-XRQ',
+			cardLinkText: 'Once Upon a December',
 		},
 		{
 			day: 7,
-			image: undefined,
-			text: 'quote here'
+			image: 'https://y.yarn.co/9b8d0e9f-f475-401b-8219-7ed6913b3274_text.gif',
+			text: `"Now, this whole thing stinks three ways to Sunday!""`,
+			cardLink: 'https://www.youtube.com/watch?v=Ig9vELiBnBs',
+			cardLinkText: 'Watch Rango Scene'
 		},
 		{
 			day: 8,
