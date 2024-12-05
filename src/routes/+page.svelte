@@ -32,7 +32,9 @@
 		{
 			day: 5,
 			image: lizard,
-			text: `DID YOU KNOW the New Mexican Whiptail is a female-only species of lizard? They reproduce asexually. They are otherwise wary, energetic, and fast moving. Lesbian lizards FTW!`
+			text: `DID YOU KNOW the New Mexican Whiptail is a female-only species of lizard? They reproduce asexually. They are otherwise wary, energetic, and fast moving. Lesbian lizards FTW!`,
+			cardLink: 'https://www.youtube.com/watch?v=3WqU9wCKVRI',
+			cardLinkText: `Check 'em out!'`
 		},
 		{
 			day: 6,
@@ -181,6 +183,8 @@
 				cardText={items.text}
 				cardImage={items.image}
 				isClickable={items.day <= today}
+				cardLink={items.cardLink}
+				cardLinkText={items.cardLinkText}
 			/>
 		{/each}
 	</div>

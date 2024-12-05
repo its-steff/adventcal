@@ -70,5 +70,6 @@
 	}
 	button {
 		display: block;
+		margin-top: 10px;
 	}
 </style>

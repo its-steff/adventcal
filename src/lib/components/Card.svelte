@@ -1,6 +1,6 @@
 <script>
 	import Modal from './Modal.svelte';
-	const { calenderNumber, cardImage, cardText, isClickable } = $props();
+	const { calenderNumber, cardImage, cardText, isClickable, cardLink, cardLinkText } = $props();
 	let showModal = $state(false);
 
 	function openModal() {
@@ -19,6 +19,9 @@
 	{#if cardText}
 		<p class="modalText">{cardText}</p>
 	{/if}
+	{#if cardLink && cardLinkText}
+		<a class="link" href={cardLink}>{cardLinkText}</a>
+	{/if}
 </Modal>
 <!-- svelte-ignore a11y_click_events_have_key_events -->
 <!-- svelte-ignore a11y_no_static_element_interactions -->
@@ -28,6 +31,16 @@
 </div>
 
 <style>
+	.link {
+		margin-bottom: 10px;
+		color: blue;
+		text-decoration: none;
+	}
+
+	.link:hover {
+		text-decoration: underline;
+	}
+
 	img {
 		max-width: 100%;
 		max-height: 70vh;

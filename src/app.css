@@ -6,12 +6,3 @@ body {
 	background: #903334;
 	background: linear-gradient(180deg, #903334, #3e0c0d);
 }
-
-a {
-	color: var(--color-theme-1);
-	text-decoration: none;
-}
-
-a:hover {
-	text-decoration: underline;
-}
