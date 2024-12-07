@@ -4,6 +4,8 @@
 	import joker from '$lib/images/joker.jpeg';
 	import aprillludgate from '$lib/images/aprilludgate.webp';
 	import lizard from '$lib/images/lizard.png';
+	import foxandraccoon from '$lib/images/foxandraccoon.jpg';
+	import friesiangif from '$lib/images/friesiangif.gif';
 	import Card from '$lib/components/Card.svelte';
 
 	const today = new Date().getDate();
@@ -40,7 +42,7 @@
 			day: 6,
 			image: 'https://i.pinimg.com/originals/07/66/a1/0766a14d9320aa1a4942875e224a0e9d.gif',
 			cardLink: 'https://www.youtube.com/watch?v=5gZrYyi-XRQ',
-			cardLinkText: 'Once Upon a December',
+			cardLinkText: 'Once Upon a December'
 		},
 		{
 			day: 7,
@@ -51,13 +53,15 @@
 		},
 		{
 			day: 8,
-			image: undefined,
-			text: 'quote here'
+			image: foxandraccoon,
+			text: ''
 		},
 		{
 			day: 9,
-			image: undefined,
-			text: 'quote here'
+			image: friesiangif,
+			text: '',
+			cardLink: 'https://www.youtube.com/watch?v=ReeKcqcLj0c&t=145s',
+			cardLinkText: 'A documentary on Friesians 🐎'
 		},
 		{
 			day: 10,
