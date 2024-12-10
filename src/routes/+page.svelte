@@ -6,6 +6,7 @@
 	import lizard from '$lib/images/lizard.png';
 	import foxandraccoon from '$lib/images/foxandraccoon.jpg';
 	import friesiangif from '$lib/images/friesiangif.gif';
+	import hquinngif from '$lib/images/hquinn.gif';
 	import Card from '$lib/components/Card.svelte';
 
 	const today = new Date().getDate();
@@ -65,8 +66,8 @@
 		},
 		{
 			day: 10,
-			image: undefined,
-			text: 'quote here'
+			image: hquinngif,
+			text: `"Love your performe. What is that, the scent of death?"`
 		},
 		{
 			day: 11,
