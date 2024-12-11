@@ -7,6 +7,8 @@
 	import foxandraccoon from '$lib/images/foxandraccoon.jpg';
 	import friesiangif from '$lib/images/friesiangif.gif';
 	import hquinngif from '$lib/images/hquinn.gif';
+	import howdygif from '$lib/images/howdygif.gif';
+
 	import Card from '$lib/components/Card.svelte';
 
 	const today = new Date().getDate();
@@ -71,8 +73,10 @@
 		},
 		{
 			day: 11,
-			image: undefined,
-			text: 'quote here'
+			image: howdygif,
+			text: 'Honestly, the best part of the first movie right there.',
+			cardLinkText: "You've got a friend in me",
+			cardLink: 'https://www.youtube.com/watch?v=0hG-2tQtdlE'
 		},
 		{
 			day: 12,
