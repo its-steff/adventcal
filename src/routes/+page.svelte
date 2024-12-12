@@ -70,7 +70,7 @@
 		{
 			day: 10,
 			image: hquinngif,
-			text: `"Love your performe. What is that, the scent of death?"`
+			text: `"Love your perfume. What is that, the scent of death?"`
 		},
 		{
 			day: 11,
