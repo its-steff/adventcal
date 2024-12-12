@@ -8,6 +8,7 @@
 	import friesiangif from '$lib/images/friesiangif.gif';
 	import hquinngif from '$lib/images/hquinn.gif';
 	import howdygif from '$lib/images/howdygif.gif';
+	import reindeer from '$lib/images/reindeer.jpg';
 
 	import Card from '$lib/components/Card.svelte';
 
@@ -80,8 +81,8 @@
 		},
 		{
 			day: 12,
-			image: undefined,
-			text: 'quote here'
+			image: reindeer,
+			text: 'DID YOU KNOW that reindeer have eyes that turn blue in the winter? It is to help them see in lower light levels. They are golden colored in the summer. No other mammals have this ability. They are also the only deer species in which both the male and female can grow antlers. Also, they do actually have red noses with lots of tiny veins circulating warm blood around their nose to heat up the air they breathe so they do not get too cold.'
 		},
 		{
 			day: 13,
