@@ -9,6 +9,7 @@
 	import hquinngif from '$lib/images/hquinn.gif';
 	import howdygif from '$lib/images/howdygif.gif';
 	import reindeer from '$lib/images/reindeer.jpg';
+	import foxwhip from '$lib/images/foxwhip.jpg';
 
 	import Card from '$lib/components/Card.svelte';
 
@@ -86,8 +87,8 @@
 		},
 		{
 			day: 13,
-			image: undefined,
-			text: 'quote here'
+			image: foxwhip,
+			text: 'My attempt at old school style did not come out very old school 😅'
 		},
 		{
 			day: 14,
