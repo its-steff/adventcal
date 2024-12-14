@@ -10,6 +10,7 @@
 	import howdygif from '$lib/images/howdygif.gif';
 	import reindeer from '$lib/images/reindeer.jpg';
 	import foxwhip from '$lib/images/foxwhip.jpg';
+	import hannah from '$lib/images/hannahgadsby.webp'
 
 	import Card from '$lib/components/Card.svelte';
 
@@ -92,8 +93,10 @@
 		},
 		{
 			day: 14,
-			image: undefined,
-			text: 'quote here'
+			image: hannah,
+			text: 'I am not sure how interesting documentaries on Australia are to you, but apparently Hannah has a whole Youtube series on it! Might be interesting, might not be 🤷‍♀️',
+			cardLink: 'https://www.youtube.com/watch?v=dGopQRGQnFc&t=282s',
+			cardLinkText: 'Exploring Australia with Hannah Gadsby'
 		},
 		{
 			day: 15,
