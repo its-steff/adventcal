@@ -12,6 +12,8 @@
 	import foxwhip from '$lib/images/foxwhip.jpg';
 	import hannah from '$lib/images/hannahgadsby.webp'
 	import marlene from '$lib/images/marlene.webp'
+	import ronswanson from '$lib/images/ronswanson.gif'
+	import axel from '$lib/images/axel.gif'
 
 	import Card from '$lib/components/Card.svelte';
 
@@ -108,13 +110,15 @@
 		},
 		{
 			day: 16,
-			image: undefined,
-			text: 'quote here'
+			image: ronswanson,
+			text: ''
 		},
 		{
 			day: 17,
-			image: undefined,
-			text: 'quote here'
+			image: axel,
+			text: 'Idk if you like axoltls but you SHOULD if you dont 🥰 They are so cuute. And, here is a Youtube video about them :)',
+			cardLink: 'https://www.youtube.com/watch?v=es5NamAO0qU',
+			cardLinkText: '10 Fadts About Axolotls'
 		},
 		{
 			day: 18,
