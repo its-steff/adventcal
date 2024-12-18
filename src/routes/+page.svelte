@@ -10,10 +10,11 @@
 	import howdygif from '$lib/images/howdygif.gif';
 	import reindeer from '$lib/images/reindeer.jpg';
 	import foxwhip from '$lib/images/foxwhip.jpg';
-	import hannah from '$lib/images/hannahgadsby.webp'
-	import marlene from '$lib/images/marlene.webp'
-	import ronswanson from '$lib/images/ronswanson.gif'
-	import axel from '$lib/images/axel.gif'
+	import hannah from '$lib/images/hannahgadsby.webp';
+	import marlene from '$lib/images/marlene.webp';
+	import ronswanson from '$lib/images/ronswanson.gif';
+	import axel from '$lib/images/axel.gif';
+	import aurorafox from '$lib/images/aurorafox.jpg';
 
 	import Card from '$lib/components/Card.svelte';
 
@@ -105,7 +106,8 @@
 			day: 15,
 			image: marlene,
 			text: 'Some of my favorite songs of hers 😊',
-			cardLink: 'https://youtube.com/playlist?list=PLrYWI844Pc_9bPaQA0dcwyouOXmbNVs8y&si=j-mTSCddD0i1gExs',
+			cardLink:
+				'https://youtube.com/playlist?list=PLrYWI844Pc_9bPaQA0dcwyouOXmbNVs8y&si=j-mTSCddD0i1gExs',
 			cardLinkText: 'Marlene Dietrich Playlist'
 		},
 		{
@@ -122,8 +124,8 @@
 		},
 		{
 			day: 18,
-			image: undefined,
-			text: 'quote here'
+			image: aurorafox,
+			text: ''
 		},
 		{
 			day: 19,
