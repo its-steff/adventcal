@@ -15,6 +15,7 @@
 	import ronswanson from '$lib/images/ronswanson.gif';
 	import axel from '$lib/images/axel.gif';
 	import aurorafox from '$lib/images/aurorafox.jpg';
+	import saladfingers from '$lib/images/saladfingers.webp'
 
 	import Card from '$lib/components/Card.svelte';
 
@@ -129,8 +130,10 @@
 		},
 		{
 			day: 19,
-			image: undefined,
-			text: 'quote here'
+			image: saladfingers,
+			text: 'Remember this guy xD',
+			cardLink: 'https://www.youtube.com/watch?v=OWBFKL6H7rI',
+			cardLinkText: 'Salad Fingers',
 		},
 		{
 			day: 20,
