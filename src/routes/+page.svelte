@@ -16,6 +16,7 @@
 	import axel from '$lib/images/axel.gif';
 	import aurorafox from '$lib/images/aurorafox.jpg';
 	import saladfingers from '$lib/images/saladfingers.webp'
+	import elmowizard from '$lib/images/elmowizard.gif'
 
 	import Card from '$lib/components/Card.svelte';
 
@@ -137,8 +138,10 @@
 		},
 		{
 			day: 20,
-			image: undefined,
-			text: 'quote here'
+			image: elmowizard,
+			text: 'I think you said that you like metal, so here is a really cool band and an excellent song if you have not herd of them already :)',
+			cardLink: 'https://www.youtube.com/watch?v=D93HMEcwP20',
+			cardLinkText: 'Wizards in Winter - song by Transiberian Orchestra'
 		},
 		{
 			day: 21,
