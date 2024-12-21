@@ -17,6 +17,7 @@
 	import aurorafox from '$lib/images/aurorafox.jpg';
 	import saladfingers from '$lib/images/saladfingers.webp'
 	import elmowizard from '$lib/images/elmowizard.gif'
+	import batman from '$lib/images/batman.webp'
 
 	import Card from '$lib/components/Card.svelte';
 
@@ -145,8 +146,8 @@
 		},
 		{
 			day: 21,
-			image: undefined,
-			text: 'quote here'
+			image: batman,
+			text: 'What would Batman do if he wasn not rich? He wold be Robin 😼 lool'
 		},
 		{
 			day: 22,
