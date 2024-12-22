@@ -18,6 +18,7 @@
 	import saladfingers from '$lib/images/saladfingers.webp'
 	import elmowizard from '$lib/images/elmowizard.gif'
 	import batman from '$lib/images/batman.webp'
+	import jenna from '$lib/images/jenna.webp'
 
 	import Card from '$lib/components/Card.svelte';
 
@@ -151,8 +152,10 @@
 		},
 		{
 			day: 22,
-			image: undefined,
-			text: 'quote here'
+			image: jenna,
+			text: 'Also, I meant Kermit and not Kirby lool',
+			cardLink: 'https://www.youtube.com/watch?v=vlU6m1y9j-g',
+			cardLinkText: 'Jenna Marbles Compilation'
 		},
 		{
 			day: 23,
