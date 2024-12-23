@@ -19,6 +19,7 @@
 	import elmowizard from '$lib/images/elmowizard.gif'
 	import batman from '$lib/images/batman.webp'
 	import jenna from '$lib/images/jenna.webp'
+	import harley from '$lib/images/harleypokemon.png'
 
 	import Card from '$lib/components/Card.svelte';
 
@@ -159,8 +160,8 @@
 		},
 		{
 			day: 23,
-			image: undefined,
-			text: 'quote here'
+			image: harley,
+			text: '🔥🔥🔥'
 		},
 		{
 			day: 24,
