@@ -20,6 +20,7 @@
 	import batman from '$lib/images/batman.webp'
 	import jenna from '$lib/images/jenna.webp'
 	import harley from '$lib/images/harleypokemon.png'
+	import carol from '$lib/images/carol.webp'
 
 	import Card from '$lib/components/Card.svelte';
 
@@ -165,8 +166,10 @@
 		},
 		{
 			day: 24,
-			image: undefined,
-			text: 'quote here'
+			image: carol,
+			text: 'I mean, how could I not add Carol :)',
+			cardLink: 'https://www.youtube.com/watch?v=vXnKQTG0jzI',
+			cardLinkText: 'Carol clip'
 		},
 		{
 			day: 25,
