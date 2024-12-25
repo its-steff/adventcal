@@ -21,6 +21,7 @@
 	import jenna from '$lib/images/jenna.webp'
 	import harley from '$lib/images/harleypokemon.png'
 	import carol from '$lib/images/carol.webp'
+	import vulpix from "$lib/images/vulpix.gif"
 
 	import Card from '$lib/components/Card.svelte';
 
@@ -173,8 +174,8 @@
 		},
 		{
 			day: 25,
-			image: undefined,
-			text: 'quote here'
+			image: vulpix,
+			text: 'Check you email at some point today :) '
 		},
 		{
 			day: 26,
