@@ -15,14 +15,15 @@
 	import ronswanson from '$lib/images/ronswanson.gif';
 	import axel from '$lib/images/axel.gif';
 	import aurorafox from '$lib/images/aurorafox.jpg';
-	import saladfingers from '$lib/images/saladfingers.webp'
-	import elmowizard from '$lib/images/elmowizard.gif'
-	import batman from '$lib/images/batman.webp'
-	import jenna from '$lib/images/jenna.webp'
-	import harley from '$lib/images/harleypokemon.png'
-	import carol from '$lib/images/carol.webp'
-	import vulpix from "$lib/images/vulpix.gif"
-	import hobbit from '$lib/images/hobbit.gif'
+	import saladfingers from '$lib/images/saladfingers.webp';
+	import elmowizard from '$lib/images/elmowizard.gif';
+	import batman from '$lib/images/batman.webp';
+	import jenna from '$lib/images/jenna.webp';
+	import harley from '$lib/images/harleypokemon.png';
+	import carol from '$lib/images/carol.webp';
+	import vulpix from '$lib/images/vulpix.gif';
+	import hobbit from '$lib/images/hobbit.gif';
+	import fox from '$lib/images/fox.gif'
 
 	import Card from '$lib/components/Card.svelte';
 
@@ -140,7 +141,7 @@
 			image: saladfingers,
 			text: 'Remember this guy xD',
 			cardLink: 'https://www.youtube.com/watch?v=OWBFKL6H7rI',
-			cardLinkText: 'Salad Fingers',
+			cardLinkText: 'Salad Fingers'
 		},
 		{
 			day: 20,
@@ -187,8 +188,10 @@
 		},
 		{
 			day: 27,
-			image: undefined,
-			text: 'quote here'
+			image: fox,
+			text: 'Loook foxes like banjos :} ',
+			cardLinkLext: 'Fox and banjo',
+			cardLink: 'https://www.youtube.com/watch?v=Nr_3MvtSgDE',
 		},
 		{
 			day: 28,
