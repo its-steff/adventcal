@@ -22,6 +22,7 @@
 	import harley from '$lib/images/harleypokemon.png'
 	import carol from '$lib/images/carol.webp'
 	import vulpix from "$lib/images/vulpix.gif"
+	import hobbit from '$lib/images/hobbit.gif'
 
 	import Card from '$lib/components/Card.svelte';
 
@@ -179,8 +180,10 @@
 		},
 		{
 			day: 26,
-			image: undefined,
-			text: 'quote here'
+			image: hobbit,
+			text: 'If you dont know this one, we cant be friends anymore.',
+			cardLink: 'https://www.youtube.com/watch?v=uE-1RPDqJAY',
+			cardLinkText: 'where are they taking the hobbits?'
 		},
 		{
 			day: 27,
