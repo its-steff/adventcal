@@ -24,6 +24,7 @@
 	import vulpix from '$lib/images/vulpix.gif';
 	import hobbit from '$lib/images/hobbit.gif';
 	import fox from '$lib/images/fox.gif';
+	import elphaba from '$lib/images/elphaba.webp'
 
 	import Card from '$lib/components/Card.svelte';
 
@@ -195,8 +196,10 @@
 		},
 		{
 			day: 28,
-			image: undefined,
-			text: 'quote here'
+			image: elphaba,
+			text: `Y'know, could always do a Wicked rp sometime too :)`,
+			cardLink: 'https://hattersarts.tumblr.com/tagged/wicked',
+			cardLinkText: 'Tumblr with some gay Wicked art and other fandoms'
 		},
 		{
 			day: 29,
