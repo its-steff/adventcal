@@ -23,7 +23,7 @@
 	import carol from '$lib/images/carol.webp';
 	import vulpix from '$lib/images/vulpix.gif';
 	import hobbit from '$lib/images/hobbit.gif';
-	import fox from '$lib/images/fox.gif'
+	import fox from '$lib/images/fox.gif';
 
 	import Card from '$lib/components/Card.svelte';
 
@@ -190,8 +190,8 @@
 			day: 27,
 			image: fox,
 			text: 'Loook foxes like banjos :} ',
-			cardLinkLext: 'Fox and banjo',
-			cardLink: 'https://www.youtube.com/watch?v=Nr_3MvtSgDE',
+			cardLinkText: 'Fox and banjo',
+			cardLink: 'https://www.youtube.com/watch?v=Nr_3MvtSgDE'
 		},
 		{
 			day: 28,
