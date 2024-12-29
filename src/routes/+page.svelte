@@ -25,6 +25,7 @@
 	import hobbit from '$lib/images/hobbit.gif';
 	import fox from '$lib/images/fox.gif';
 	import elphaba from '$lib/images/elphaba.webp'
+	import larry from '$lib/images/larrythecucumber.gif'
 
 	import Card from '$lib/components/Card.svelte';
 
@@ -203,8 +204,10 @@
 		},
 		{
 			day: 29,
-			image: undefined,
-			text: 'quote here'
+			image: larry,
+			text: 'The song video compilation you did not know you needed. You are welcome',
+			cardLink: 'https://www.youtube.com/watch?v=tFZJoFZJlck',
+			cardLinkText: 'Song collection'
 		},
 		{
 			day: 30,
