@@ -9,9 +9,7 @@
 		{@render children()}
 	</main>
 
-	<footer>
-		<p>Merry Christmas Ya Filthy Animal</p>
-	</footer>
+	<footer></footer>
 </div>
 
 <style>
